@@ -66,7 +66,7 @@ function blob_fixup() {
             mv "${EXTRACT_TMP_DIR}/${1##*/}" "${2}"
             ;;
         vendor/lib64/camera/components/com.mi.node.watermark.so)
-            "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
+            grep -q "libpiex_shim.so" "${2}" || "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
             ;;
         vendor/lib64/libril-qc-hal-qmi.so)
             sed -i 's|ro.product.vendor.device|ro.vendor.radio.midevice|g' "${2}"
