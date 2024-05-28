@@ -16,7 +16,7 @@
     "branch": "14.0"
   },
   {
-    "repository": "crdroidandroid/android_vendor_xiaomi_thyme-miuicamera",
+    "repository": "Fuutao/android_vendor_xiaomi_thyme-miuicamera",
     "target_path": "vendor/xiaomi/thyme-miuicamera",
     "branch": "14.0"
     "remote": "crdroid-gitlab"
