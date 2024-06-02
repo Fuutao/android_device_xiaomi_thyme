@@ -269,8 +269,6 @@ system/lib/libcamera_mianode_jni.xiaomi.so
 system/lib64/libcamera_algoup_jni.xiaomi.so
 system/lib64/libcamera_mianode_jni.xiaomi.so
 vendor/camera/fonts/FZMiaoWuJW.ttf
-vendor/camera/mimoji/data.zip
-vendor/camera/mimoji/model2.zip
 
 # Camera Arcsoft
 vendor/lib64/libarcsat.so
