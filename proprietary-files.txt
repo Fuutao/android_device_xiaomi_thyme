@@ -263,12 +263,14 @@ vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 
 # Camera (MIUI Camera)
--product/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Camera2,GoogleCameraGo,Snap
 system/lib/libcamera_algoup_jni.xiaomi.so
 system/lib/libcamera_mianode_jni.xiaomi.so
 system/lib64/libcamera_algoup_jni.xiaomi.so
 system/lib64/libcamera_mianode_jni.xiaomi.so
 vendor/camera/fonts/FZMiaoWuJW.ttf
+
+# Camera (MIUI Camera) - from thyme V14.0.6.0.TGACNXM
+-product/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Camera2,GoogleCameraGo,Snap|d18ad1ceeb4076ec233da85f7e2cdfd0d8246669
 
 # Camera Arcsoft
 vendor/lib64/libarcsat.so
