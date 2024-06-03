@@ -1064,6 +1064,9 @@ vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
 vendor/lib64/libmlipay.so
 vendor/lib64/libmlipay@1.1.so
 
+# MIUI Scanner - v13.2203.1
+-product/data-app/MiuiScanner/MiuiScanner.apk:product/priv-app/MiuiScanner/MiuiScanner.apk|9d788fa55107fdcfb26bec22743849b6e8360c86
+
 # Neural Networks
 -vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml
 -vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml
