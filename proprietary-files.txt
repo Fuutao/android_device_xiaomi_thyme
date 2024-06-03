@@ -263,7 +263,7 @@ vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 
 # Camera (MIUI Camera)
--product/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Camera2,GoogleCameraGo,Snap
+-product/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Camera2,GoogleCameraGo,Snap
 system/lib/libcamera_algoup_jni.xiaomi.so
 system/lib/libcamera_mianode_jni.xiaomi.so
 system/lib64/libcamera_algoup_jni.xiaomi.so
