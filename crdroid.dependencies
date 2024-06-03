@@ -2,17 +2,13 @@
   {
     "repository": "crdroidandroid/android_kernel_xiaomi_thyme",
     "target_path": "kernel/xiaomi/thyme",
-    "branch": "14.0",
-    "remote": "github"
   },
   {
     "repository": "crdroidandroid/android_vendor_xiaomi_thyme",
     "target_path": "vendor/xiaomi/thyme",
-    "branch": "14.0"
   },
   {
     "repository": "crdroidandroid/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
-    "branch": "14.0"
   }
 ]
