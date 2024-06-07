@@ -1,14 +1,14 @@
 [
   {
     "repository": "crdroidandroid/android_kernel_xiaomi_thyme",
-    "target_path": "kernel/xiaomi/thyme",
+    "target_path": "kernel/xiaomi/thyme"
   },
   {
     "repository": "crdroidandroid/android_vendor_xiaomi_thyme",
-    "target_path": "vendor/xiaomi/thyme",
+    "target_path": "vendor/xiaomi/thyme"
   },
   {
     "repository": "crdroidandroid/android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi",
+    "target_path": "hardware/xiaomi"
   }
 ]
